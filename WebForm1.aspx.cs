@@ -13,5 +13,13 @@ namespace WebApplication1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            int num1, num2;
+            num1 = int.Parse(TextBox1.Text);
+            num2 = int.Parse(TextBox2.Text);
+            Response.Write("sum is:" + (num1 + num2));
+        }
     }
 }
