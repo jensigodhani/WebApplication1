@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/adrotatorXMLFile1.xml" Height="100px" OnAdCreated="AdRotator1_AdCreated" Width="100px" />
+            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/adrotatorXMLFile1.xml" Height="200px" OnAdCreated="AdRotator1_AdCreated" Width="200px" />
         </div>
     </form>
 </body>
